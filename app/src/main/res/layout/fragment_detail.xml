@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/nameTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:textSize="34sp"
+        android:textColor="@android:color/holo_purple"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/idTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/nameTextView"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/maxharvestTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idTextView"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/growthTimeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/maxharvestTextView"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/sizeTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/growthTimeTextView"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/smoothnessTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/sizeTextView"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/soilDrynessTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/smoothnessTextView"
+        android:layout_marginTop="16dp"
+        android:textSize="24sp" />
+
+</RelativeLayout>
